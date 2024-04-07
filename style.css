@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(pink,wheat,lightgrey);
+}
+.container{
+    padding: 2vw 5vw 5vw 5vw;
+    border-radius: 1rem;
+    width:25vw;
+    height:55vh; 
+    background: linear-gradient(yellow,lightcoral, lightgreen);
+}
+h2{
+    padding-bottom:1vw;
+}
+form select, button, input{
+    margin:0.1vw;
+    width:100%;
+    padding:0.2vw;
+    border-radius: 0.65vw;
+    padding: 0.4vw;
+    font-size: 1vw;
+}
+.drop{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:2vw;
+    margin-bottom: 1vw;
+}
+#im{
+    padding:3vw;
+    font-size: 3vw;
+}
+h4{
+    padding:0.4vw 0 0.4vw 0;
+    font-size: 1.5vw;
+}
+.select img{
+    max-width:8vw;
+}
+.msg{
+    margin:1vw 0 1vw 0;
+    font-size: 1.8vw;
+    font-weight: 800;
+}
+button{
+    border:2px solid palevioletred;
+    padding:0.8vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color:white;
+    cursor: pointer;
+    background: linear-gradient(lightcoral,black);
+}
+@media screen and (max-width:700px) and (min-width: 100px){
+    .container{
+        width:60%;
+        height:80%;
+        background-color: aliceblue;
+    }
+    h2{
+        font-size:2rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    .msg{
+        font-size:0.8rem;
+
+    }
+    button{
+        font-size:0.7rem;
+    }
+    form select,button, input{
+        font-size: 0.9rem;
+    }
+}
